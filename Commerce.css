@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+.home {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 999;
+    width: 90px;
+    height: 38px;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.3);
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.home:hover {
+    background-color: gold;
+    color: black;
+    border: none;
+}
+
+.background {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    height: 100vh;
+    gap: 3px;
+    overflow: hidden;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.35);
+}
+
+.background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 0;
+}
+
+.text {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    padding: 60px 20px;
+}
+
+.text h1 {
+    display: inline-block;
+    padding: 12px 40px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    color: gold;
+    font-size: 1.8rem;
+    letter-spacing: 4px;
+    transition: 0.3s;
+}
+
+.text h1:hover {
+    background-color: rgba(255,215,0,0.15);
+    cursor: pointer;
+}
+
+.text p {
+    color: #e8e8e8;
+    background-color: rgba(0,0,0,0.55);
+    padding: 18px 28px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 720px;
+    line-height: 1.9;
+    font-size: 0.95rem;
+}
+
+.text p:hover {
+    background-color: rgba(0,0,0,0.75);
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgba(255,215,0,0.35);
+    margin: 25px auto;
+    width: 60%;
+}
+
+.Branches {
+    display: inline-block;
+    margin: 25px 0 10px 40px;
+}
+
+.Branches h2 {
+    color: gold;
+    border-left: 3px solid gold;
+    padding-left: 12px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.info {
+    background-color: #111111;
+    padding: 20px 50px 35px;
+    line-height: 1.9;
+}
+
+.info p {
+    color: #dddddd;
+    font-size: 0.95rem;
+    margin: 10px 0 20px;
+}
+
+.info li {
+    list-style: none;
+    padding: 5px 0;
+    color: #dddddd;
+    font-size: 0.93rem;
+}
+
+.info li::before {
+    content: "→  ";
+    color: gold;
+}
+
+.TopColleges {
+    color: gold;
+    border-left: 3px solid gold;
+    padding: 5px 15px;
+    display: inline-block;
+    margin: 25px 0 12px 0;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.CarrerOptions {
+    color: gold;
+    border-left: 3px solid gold;
+    padding: 5px 15px;
+    display: inline-block;
+    margin: 25px 0 12px 0;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.EntranceExams {
+    color: gold;
+    border-left: 3px solid gold;
+    padding: 5px 15px;
+    display: inline-block;
+    margin: 25px 0 12px 0;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.SalaryRange {
+    color: gold;
+    border-left: 3px solid gold;
+    padding: 5px 15px;
+    display: inline-block;
+    margin: 25px 0 12px 0;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: transparent;
+}

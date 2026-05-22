@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(160deg, #0d0d0d 0%, #1a1a2e 40%, #0f3460 100%);
+    min-height: 100vh;
+    font-family: Georgia, serif;
+    color: white;
+}
+
+h1 {
+    color: gold;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 8px rgba(255, 215, 0, 0.4);
+    font-size: 2rem;
+    padding: 30px 0 10px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #c9d6ff;
+    margin: 20px 0 8px 20px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+p {
+    color: #e0e0e0;
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 8px 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgba(255, 215, 0, 0.3);
+    margin: 25px auto;
+    width: 70%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+th {
+    background: linear-gradient(90deg, #0f3460, #16213e);
+    color: gold;
+    padding: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 0.95rem;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    color: #e0e0e0;
+    font-size: 0.9rem;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+tr:hover {
+    background-color: rgba(255, 215, 0, 0.07);
+}
+
+.FAQ {
+    margin: 15px 20px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.3);
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.FAQ:hover {
+    background-color: #ffee00;
+    color: black;
+}
+
+.Science {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 24px;
+    font-size: 16px;
+    margin-left: 20px;
+    background: linear-gradient(135deg, #0d47a1, #1976d2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.Science:hover {
+    background: linear-gradient(135deg, #1976d2, #42a5f5);
+    border-radius: 20px;
+}
+
+.Commerce {
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 24px;
+    font-size: 16px;
+    background: linear-gradient(135deg, #1b5e20, #388e3c);
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.Commerce:hover {
+    background: linear-gradient(135deg, #388e3c, #66bb6a);
+    border-radius: 20px;
+}
+
+.Arts {
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 24px;
+    font-size: 16px;
+    background: linear-gradient(135deg, #4a148c, #7b1fa2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.Arts:hover {
+    background: linear-gradient(135deg, #7b1fa2, #ab47bc);
+    border-radius: 20px;
+}
+
+.Other {
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 24px;
+    font-size: 16px;
+    background: linear-gradient(135deg, #e65100, #f57c00);
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.Other:hover {
+    background: linear-gradient(135deg, #f57c00, #ffb74d);
+    border-radius: 20px;
+}
